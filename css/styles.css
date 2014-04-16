@@ -1,1 +1,29 @@
 /* My Styles */
+
+header{
+	position: relative;
+}
+
+header h1{
+	position: absolute;
+	bottom: 0;
+	left: 48px;
+	font-size: 2em;
+}
+
+/*Column 1 styling*/
+.tabs-content > .content {
+	border: 1px solid #000;
+	border-top: none;
+	padding:10px;
+}
+
+/*Column 2 styling*/
+.panel.callout{
+	background: #FF0033;
+}
+
+/*Modal*/
+.reveal-modal-bg {
+	background: rgba(255, 0, 0, 1);
+}
