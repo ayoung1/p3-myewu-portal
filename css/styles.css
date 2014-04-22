@@ -1,12 +1,19 @@
 /* My Styles */
 
+body{
+	font-family: 'Myriad pro', 'arial';
+}
+
+p{
+	font-family: 'arial';
+}
+
 .contain-to-grid{
 	background: transparent;
 }
 
 h3{
-	border-bottom: 2px solid red;
-	font-family: 'Myriad pro', 'arial';
+	border-bottom: 2px solid #a10022;
 }
 
 header{
@@ -21,10 +28,17 @@ header h1{
 	font-size: 2em;
 }
 
+/*Masthead*/
+
+header img{
+	border: solid 5px #a10022;
+	border-top: none;
+}
+
 /*Nav Bar Styling*/
 
 .top-bar{
-	height:3.75em; 
+	background: url(../img/banner-bg.png);
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button){
@@ -35,12 +49,16 @@ header h1{
 	background: #00325b;
 }
 
-/*Column 1 styling*/
-.tabs-content > .content {
-	border: 1px solid #000;
-	border-top: none;
-	padding:10px;
+/*Column generic styling*/
+
+.panel{
+	border-color: #6d6e71;
+	background: rgba(168/178/170/.3);
 }
+
+/*Column 1 styling*/
+
+
 
 /*Column 2 styling*/
 .panel.callout{
@@ -49,5 +67,5 @@ header h1{
 
 /*Modal*/
 .reveal-modal-bg {
-	background: rgba(255, 0, 0, 1);
+	background: #a10022;
 }

@@ -18,29 +18,21 @@
     <nav class="top-bar" data-topbar data-options="sticky_on: large">
       <ul class="title-area">
         <li class="name">
-          <img src="img/company_logo.gif">
+          <a href="#"><img src="img/company_logo.gif"></a>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
       </ul>
 
       <section class="top-bar-section">
         <!-- Right Nav Section -->
-        <ul class="right">
-          <li class="active"><a href="#">Home</a></li>
-          <li class="has-dropdown">
-            <a href="#">Preferences</a>
-            <ul class="dropdown">
-              <li><a href="#">My Account</a></li>
-              <li><a href="#">Control Panel</a></li>
-            </ul>
-          </li>
-          <li class="active"><a href="#">Sign Out</a></li>
+        <ul class="right">          
+          <li class="active"><a id="signout" href="#">Sign Out</a></li>
         </ul>
 
         <!-- Left Nav Section -->
         <ul class="left">
           <li class="has-dropdown">
-            <a href="#">Navigation</a>
+            <a id="nav" href="#">Navigation</a>
             <ul class="dropdown">
               <li class="has-dropdown not-click"><a href="#">Student</a>
                 <ul class="dropdown">
@@ -56,6 +48,13 @@
                 </ul>
               </li>
               <li><a href="#">Help</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a id="pref" href="#">Preferences</a>
+            <ul class="dropdown">
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Control Panel</a></li>
             </ul>
           </li>
         </ul>
@@ -103,6 +102,27 @@
       
       <!-- Column 2 -->
       <div class="large-4 columns">
+
+        <dl class="tabs" data-tab>
+          <dd class="active"><a href="#panel2-1">Email</a></dd>
+          <dd><a href="#panel2-2">Facebook</a></dd>
+        </dl>
+        <div class="tabs-content">
+          <div class="content active" id="panel2-1">
+            <div class="panel contain-to-grid">
+              <h3 class="contain-to-grid">Email</h3>
+              <img src="img/responsive_mochila_small.png">
+            </div>
+          </div>
+          <div class="content" id="panel2-2">
+            <div class="panel contain-to-grid">
+              <h3 class="contain-to-grid">EWU on Facebook</h3>
+              <img src="img/fb.jpg">
+            </div>
+          </div>
+        </div>
+        
+
         <div class="panel contain-to-grid">
           <h3 class="contain-to-grid">Assignments Due</h3>
           <ul class="side-nav">
@@ -122,11 +142,6 @@
           </ul>
         </div>
 
-        <div class="panel contain-to-grid">
-          <h3 class="contain-to-grid">Email</h3>
-          <img src="img/responsive_mochila_small.png">
-        </div>
-
       </div>
 
     </article> 
@@ -134,23 +149,14 @@
     <!-- Footer -->
     <footer class="row">
       
-      <div class="columns large-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sunt quaerat a enim est accusantium facilis nisi iusto non blanditiis aperiam vel eum. Non, sunt sequi nulla eaque praesentium consectetur?</p>   
-      </div>
-
-      <div class="columns large-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sunt quaerat a enim est accusantium facilis nisi iusto non blanditiis aperiam vel eum. Non, sunt sequi nulla eaque praesentium consectetur?</p>   
-      </div>
-
-      <div class="columns large-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sunt quaerat a enim est accusantium facilis nisi iusto non blanditiis aperiam vel eum. Non, sunt sequi nulla eaque praesentium consectetur?</p>   
-      </div>
+      
 
     </footer>
 
         <!-- Modal -->
     <div id="myModal" class="reveal-modal" data-reveal>
-      <p>Notifications</p>
+      <h3>Notifications</h3>
+      <p>Things like assignments due, bills needed to be paied, registration reminders and when other campus events will happen</p>
       <a class="close-reveal-modal">&#215;</a>
     </div>
 
