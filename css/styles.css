@@ -61,6 +61,18 @@ header img{
 
 
 /*Column 2 styling*/
+
+.tabs-content > .content{
+	padding: 0;
+}
+
+.tabs dd > a{
+	border: 1px solid;
+	border-bottom:none;
+	rgba(168/178/170/.3);
+	border-color: #6d6e71;
+}
+
 .panel.callout{
 	background: #FF0033;
 }
