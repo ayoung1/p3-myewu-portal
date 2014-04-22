@@ -1,7 +1,17 @@
 /* My Styles */
 
+.contain-to-grid{
+	background: transparent;
+}
+
+h3{
+	border-bottom: 2px solid red;
+	font-family: 'Myriad pro', 'arial';
+}
+
 header{
 	position: relative;
+	padding-bottom: 2em;
 }
 
 header h1{
@@ -9,6 +19,20 @@ header h1{
 	bottom: 0;
 	left: 48px;
 	font-size: 2em;
+}
+
+/*Nav Bar Styling*/
+
+.top-bar{
+	height:3.75em; 
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button){
+	background: #a10022;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover{
+	background: #00325b;
 }
 
 /*Column 1 styling*/
