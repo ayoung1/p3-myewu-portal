@@ -49,6 +49,22 @@ header img{
 	background: #00325b;
 }
 
+.top-bar-section li:not(.has-form) a:not(.button){
+	background: #a10022;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+	background: #00325b;
+}
+
+.top-bar-section .dropdown li:not(.has-form) a:not(.button){
+	background: #a10022;
+}
+
+.top-bar-section .dropdown li:not(.has-form) a:not(.button):hover{
+	background: #00325b;
+}
+
 /*Column generic styling*/
 
 .panel{
@@ -71,6 +87,7 @@ header img{
 	border-bottom:none;
 	rgba(168/178/170/.3);
 	border-color: #6d6e71;
+	padding: 1em 1em;
 }
 
 .panel.callout{
